@@ -17,10 +17,12 @@ class CourseProvider with ChangeNotifier {
       10,
       (index) => Course(
         id: '$index',
-        title: 'Course $index',
-        description: 'Description for Course $index',
+        title: 'Google Digital Marketing E-commerce $index',
+        description:
+            'Description for Course Google Digital Marketing E-commerce $index',
         instructor: 'Instructor $index',
-        thumbnailUrl: 'http://example.com/course$index.jpg',
+        thumbnailUrl:
+            'https://mostaql.hsoubcdn.com/uploads/thumbnails/1119216/64de4a4484465/google-digital-marketing-e-commerce-certificate.png',
         lessons: ['Lesson 1', 'Lesson 2', 'Lesson 3'],
       ),
     );

@@ -13,9 +13,10 @@ class AuthProvider with ChangeNotifier {
     await Future.delayed(Duration(seconds: 2));
     _user = User(
       id: '1',
-      name: 'John Doe',
+      name: 'Ahmed Ezat',
       email: email,
-      profilePictureUrl: 'http://example.com/profile.jpg',
+      profilePictureUrl:
+          'https://mostaql.hsoubcdn.com/uploads/thumbnails/1119216/64de4a4484465/google-digital-marketing-e-commerce-certificate.png',
     );
     notifyListeners();
   }
